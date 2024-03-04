@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.portfolio-option {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 40px);
+    text-align: center;
+}
+
+.portfolio-screenshot {
+    width: 200px;
+    height: 150px;
+    background-color: #ddd;
+    margin: 0 auto 20px;
+}
+.portfolio-screenshot img {
+    max-width: 100%; /* Ensures the image width does not exceed the container width */
+    max-height: 100%; /* Ensures the image height does not exceed the container height */
+    display: block; /* Prevents any extra space below the image */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.view-code {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.view-code:hover {
+    color: #666;
+}

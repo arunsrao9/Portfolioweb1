@@ -1,0 +1,182 @@
+html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">My Portfolio</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate web developer ready to bring your ideas to life.</p>
+            <a href="#" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I specialize in creating responsive and user-friendly websites using modern web technologies.</p>
+            <p>My goal is to help businesses and individuals establish a strong online presence.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Your Name's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+CSS file:
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cac7c7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('comp.png');/*tru to adjust the bg colour in line 11(.body) according to the picture you choose. */
+    background-repeat: no-repeat;
+    background-size: contain; /* cover or contain depending on your preference */
+    background-position: center; /* or any other position you prefer */
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000603;
+}
+
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 30px;
+    margin-bottom: 300px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+}
+
+/* About Section Styles */
+.about {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+ReadME:
+Step 1: Create a index.html 
+Step 2: Paste the html code there.
+Step 3: Create style.css 
+Step 4: Paste the css code.
+Step 5: Execute the the html file to make sure its working.
+Step 6: To make changes, add your image in the img tag. And before adding it in your img tag
+        you have to add the image in the folder the html and css file is saved.
+Step 7: 
